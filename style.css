@@ -1,0 +1,73 @@
+*{
+  box-sizing:border-box;
+}
+body, h1,h2,h3,h4,p,a {
+  font-size:100%;
+  font-weight:normal;
+  margin: 0;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.header {
+  height: 100vh;
+  background-color: #eee;
+  background-image: url(https://cdnn21.img.ria.ru/images/148818/29/1488182916_0:558:6016:3942_1920x0_80_0_0_a9e0c1a4fe33f469ac8c8daaefb38ae5.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.header-title {
+  margin:auto;
+  font-size: 140px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.overlay {
+  display:flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+}
+.content{
+  margin:100px auto 50px;
+  width:90vw;
+  font-size:0;
+}
+.card{
+  margin-right:45px;
+  display:list-item;
+  box-shadow: 4px 4px 5px rgba(250,50,50,.4);
+  padding:0;
+  margin-bottom:60px;
+  height: 450px;
+  width:90vw;
+}
+.card-title{
+  margin-bottom:10px;
+  font-size:24px;
+  font-weight:500;
+}
+.card-text{
+  /* display: flex; */
+  font-size:16px;
+}
+.card-image{
+  margin-bottom:25px;
+  width: 250px;
+  height: 250px;
+}
+.footer{
+  display:flex;
+  height:300px;
+  background-color:#000;
+}
+.footer-author{
+  margin:auto;
+  color:#fff;
+  font-size:24px;
+}
